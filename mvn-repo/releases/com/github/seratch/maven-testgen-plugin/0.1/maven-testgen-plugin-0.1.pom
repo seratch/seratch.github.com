@@ -4,7 +4,7 @@
     <groupId>com.github.seratch</groupId>
     <artifactId>maven-testgen-plugin</artifactId>
     <packaging>jar</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <dependencies>
         <dependency>
             <groupId>org.scala-tools.sbt</groupId>

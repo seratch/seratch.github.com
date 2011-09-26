@@ -26,12 +26,34 @@
         </dependency>
         <dependency>
             <groupId>org.scala-tools.testing</groupId>
+            <artifactId>specs_2.8.1</artifactId>
+            <version>1.6.8</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.specs2</groupId>
+            <artifactId>specs2_2.8.1</artifactId>
+            <version>1.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-tools.testing</groupId>
             <artifactId>scalacheck_2.8.1</artifactId>
             <version>1.8</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
     <repositories>
+        <repository>
+            <id>snapshots</id>
+            <name>snapshots</name>
+            <url>http://scala-tools.org/repo-snapshots/</url>
+        </repository>
+        <repository>
+            <id>releases</id>
+            <name>releases</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+        </repository>
         <repository>
             <id>ScalaToolsMaven2Repository</id>
             <name>Scala-Tools Maven2 Repository</name>

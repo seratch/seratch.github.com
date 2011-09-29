@@ -9,12 +9,13 @@
 
   <name>spring-jersey-archetype</name>
 
-<distributionManagement>
+  <distributionManagement>
+  <!-- use the following if you're not using a snapshot version. -->
   <repository>
-  <id>repo</id>
-  <name>Repository Name</name>
-  <url>file:c:/github</url>
-</repository>
+    <id>repo</id>
+    <name>Repository Name</name>
+    <url>file:c:/github</url>
+  </repository>
 </distributionManagement>
 
   <build>
@@ -22,7 +23,7 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>2.0</version>
+        <version>2.1</version>
       </extension>
     </extensions>
 
@@ -30,9 +31,11 @@
       <plugins>
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>2.0</version>
+          <version>2.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
+
+  <description>Jersey project template with Spring</description>
 </project>

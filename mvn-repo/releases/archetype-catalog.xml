@@ -7,7 +7,21 @@
       <artifactId>spring-jersey-archetype</artifactId>
       <version>1.7-ea01</version>
       <repository>http://seratch.github.com/mvn-repo/releases</repository>
-      <description>Jersey project template with Spring</description>
+      <description>Jersey 1.7-ea01 project template with Spring</description>
+    </archetype>
+    <archetype>
+      <groupId>com.github.seratch</groupId>
+      <artifactId>spring-jersey-archetype</artifactId>
+      <version>1.8</version>
+      <repository>http://seratch.github.com/mvn-repo/releases</repository>
+      <description>Jersey 1.8 project template with Spring</description>
+    </archetype>
+    <archetype>
+      <groupId>com.github.seratch</groupId>
+      <artifactId>spring-jersey-archetype</artifactId>
+      <version>1.9</version>
+      <repository>http://seratch.github.com/mvn-repo/releases</repository>
+      <description>Jersey 1.9 project template with Spring</description>
     </archetype>
   </archetypes>
 </archetype-catalog>

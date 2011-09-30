@@ -8,12 +8,14 @@
   <packaging>maven-archetype</packaging>
 
   <name>spring-jersey-archetype</name>
-  <distributionManagement>
+
+  
+<distributionManagement>
   <!-- use the following if you're not using a snapshot version. -->
   <repository>
     <id>repo</id>
     <name>Repository Name</name>
-    <url>file:c:/github</url>
+    <url>file:/c:/github</url>
   </repository>
 </distributionManagement>
 
@@ -36,5 +38,5 @@
     </pluginManagement>
   </build>
 
-  <description>Jersey project template with Spring</description>
+  <description>Jersey app template with Spring Framework</description>
 </project>

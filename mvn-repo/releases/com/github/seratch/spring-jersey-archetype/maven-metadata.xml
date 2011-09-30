@@ -2,11 +2,11 @@
 <metadata>
   <groupId>com.github.seratch</groupId>
   <artifactId>spring-jersey-archetype</artifactId>
-  <version>1.7-ea01</version>
+  <version>1.9</version>
   <versioning>
     <versions>
-      <version>1.7-ea01</version>
+      <version>1.9</version>
     </versions>
-    <lastUpdated>20110929081949</lastUpdated>
+    <lastUpdated>20110930052717</lastUpdated>
   </versioning>
 </metadata>

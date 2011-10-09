@@ -2,11 +2,10 @@
 <metadata>
   <groupId>com.github.seratch</groupId>
   <artifactId>httpilot</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20111009140706</lastUpdated>
+    <lastUpdated>20111009141857</lastUpdated>
   </versioning>
 </metadata>

@@ -4,9 +4,9 @@
   <artifactId>httpilot</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
-    <snapshot>
-      <buildNumber>3</buildNumber>
-    </snapshot>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
     <lastUpdated>20111009135231</lastUpdated>
   </versioning>
 </metadata>

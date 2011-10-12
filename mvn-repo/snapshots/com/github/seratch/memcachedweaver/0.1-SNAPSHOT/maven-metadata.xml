@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+<metadata>
   <groupId>com.github.seratch</groupId>
   <artifactId>memcachedweaver</artifactId>
   <version>0.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20111011.230457</timestamp>
-      <buildNumber>3</buildNumber>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20111011230457</lastUpdated>
-    <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1-20111011.230457-3</value>
-        <updated>20111011230457</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1-20111011.230457-3</value>
-        <updated>20111011230457</updated>
-      </snapshotVersion>
-    </snapshotVersions>
+    <lastUpdated>20111012032839</lastUpdated>
   </versioning>
 </metadata>

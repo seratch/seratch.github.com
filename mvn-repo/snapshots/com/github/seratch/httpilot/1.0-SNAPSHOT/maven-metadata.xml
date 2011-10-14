@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+<metadata>
   <groupId>com.github.seratch</groupId>
   <artifactId>httpilot</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20111009.143634</timestamp>
-      <buildNumber>2</buildNumber>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20111009143634</lastUpdated>
-    <snapshotVersions>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0-20111009.143634-2</value>
-        <updated>20111009143634</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0-20111009.143634-2</value>
-        <updated>20111009143634</updated>
-      </snapshotVersion>
-    </snapshotVersions>
+    <lastUpdated>20111013020546</lastUpdated>
   </versioning>
 </metadata>

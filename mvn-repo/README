@@ -1,8 +1,11 @@
-esolvers ++= Seq(
+```scala
+resolvers ++= Seq(
   "seratch.github.com releases"  at "http://seratch.github.com/mvn-repo/releases",
   "seratch.github.com snapshots" at "http://seratch.github.com/mvn-repo/snapshots"
 )
+```
 
+```
 <repositories>
   <repository>
     <id>seratch.github.com releases</id>
@@ -15,4 +18,5 @@ esolvers ++= Seq(
     <url>http://seratch.github.com/mvn-repo/snapshots</url>
   </repository>
 </repositories>
+```
 

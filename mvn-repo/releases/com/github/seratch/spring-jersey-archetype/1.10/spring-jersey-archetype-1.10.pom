@@ -9,17 +9,6 @@
 
   <name>spring-jersey-archetype</name>
 
-    <distributionManagement>
-        <repository>
-            <id>repo</id>
-            <url>http://seratch.github.com/mvn-repo/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshot-repo</id>
-            <url>http://seratch.github.com/mvn-repo/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
   <build>
     <extensions>
       <extension>
@@ -40,4 +29,16 @@
   </build>
 
   <description>Jersey App Template with Spring Framework</description>
+
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>http://seratch.github.com/mvn-repo/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>http://seratch.github.com/mvn-repo/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
+

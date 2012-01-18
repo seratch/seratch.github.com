@@ -18,12 +18,6 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.0.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>com.eed3si9n</groupId>
             <artifactId>sff4s-api_2.9.1</artifactId>
             <version>0.1.1</version>
@@ -68,32 +62,20 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>scalatoolssnapshots</id>
-            <name>scala-tools-snapshots</name>
-            <url>http://scala-tools.org/repo-snapshots/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>scalatoolsreleases</id>
-            <name>scala-tools-releases</name>
-            <url>http://scala-tools.org/repo-releases/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>Akkarepo</id>
-            <name>Akka repo</name>
+            <id>akkaio</id>
+            <name>akka.io</name>
             <url>http://akka.io/repository/</url>
             <layout>default</layout>
         </repository>
         <repository>
-            <id>seratchgithubrepo</id>
-            <name>seratch-github-repo</name>
+            <id>seratchgithubcom</id>
+            <name>seratch.github.com</name>
             <url>http://seratch.github.com/mvn-repo/releases/</url>
             <layout>default</layout>
         </repository>
         <repository>
-            <id>sbtidearepo</id>
-            <name>sbt-idea-repo</name>
+            <id>mpeltonengithubcom</id>
+            <name>mpeltonen.github.com</name>
             <url>http://mpeltonen.github.com/maven/</url>
             <layout>default</layout>
         </repository>

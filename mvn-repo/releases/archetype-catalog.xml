@@ -7,14 +7,14 @@
       <artifactId>spring-jersey-archetype</artifactId>
       <version>1.10</version>
       <repository>http://seratch.github.com/mvn-repo/releases</repository>
-      <description>Jersey 1.10 / Spring 3.0.6 template</description>
+      <description>Jersey and Spring framwork app template</description>
     </archetype>
     <archetype>
       <groupId>com.github.seratch</groupId>
       <artifactId>spring-jersey-archetype</artifactId>
       <version>1.11</version>
       <repository>http://seratch.github.com/mvn-repo/releases</repository>
-      <description>Jersey 1.11 / Spring 3.0.7 template</description>
+      <description>Jersey and Spring framwork app template</description>
     </archetype>
   </archetypes>
 </archetype-catalog>

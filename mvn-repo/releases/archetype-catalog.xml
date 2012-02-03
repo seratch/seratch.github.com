@@ -5,6 +5,13 @@
     <archetype>
       <groupId>com.github.seratch</groupId>
       <artifactId>spring-jersey-archetype</artifactId>
+      <version>1.11</version>
+      <repository>http://seratch.github.com/mvn-repo/releases</repository>
+      <description>Jersey App Template with Spring Framework</description>
+    </archetype>
+    <archetype>
+      <groupId>com.github.seratch</groupId>
+      <artifactId>spring-jersey-archetype</artifactId>
       <version>1.10</version>
       <repository>http://seratch.github.com/mvn-repo/releases</repository>
       <description>Jersey App Template with Spring Framework</description>

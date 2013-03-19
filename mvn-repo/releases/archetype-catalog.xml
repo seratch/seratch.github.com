@@ -23,5 +23,12 @@
       <repository>http://seratch.github.com/mvn-repo/releases</repository>
       <description>Jersey and Spring framwork app template</description>
     </archetype>
+    <archetype>
+      <groupId>com.github.seratch</groupId>
+      <artifactId>spring-jersey-archetype</artifactId>
+      <version>1.17.1</version>
+      <repository>http://seratch.github.com/mvn-repo/releases</repository>
+      <description>Jersey and Spring framwork app template</description>
+    </archetype>
   </archetypes>
 </archetype-catalog>

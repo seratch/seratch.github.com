@@ -3,12 +3,13 @@
   <groupId>com.github.seratch</groupId>
   <artifactId>spring-jersey-archetype</artifactId>
   <versioning>
-    <release>1.16</release>
+    <release>1.17.1</release>
     <versions>
       <version>1.10</version>
       <version>1.11</version>
       <version>1.16</version>
+      <version>1.17.1</version>
     </versions>
-    <lastUpdated>20121225085702</lastUpdated>
+    <lastUpdated>20130319100030</lastUpdated>
   </versioning>
 </metadata>

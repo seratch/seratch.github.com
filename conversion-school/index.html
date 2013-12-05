@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>あなたのシステム改善が難しい理由</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="http://seratch.net/tools/s5/ui/simple/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="http://seratch.net/tools/s5/ui/simple/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="http://seratch.net/tools/s5/ui/simple/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="http://seratch.net/tools/s5/ui/simple/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" media="all">
+.imgcon {width: 525px; margin: 0 auto; padding: 0; text-align: center;}
+#anim {width: 270px; height: 320px; position: relative; margin-top: 0.5em;}
+#anim img {position: absolute; top: 42px; left: 24px;}
+img#me01 {top: 0; left: 0;}
+img#me02 {left: 23px;}
+img#me04 {top: 44px;}
+img#me05 {top: 43px;left: 36px;}
+</style>
+<!-- S5 JS -->
+<script src="http://seratch.net/tools/s5/ui/simple/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="layout">
+
+  <div id="controls"><!-- DO NOT EDIT --></div>
+  <div id="currentSlide"><!-- DO NOT EDIT --></div>
+
+  <div id="header">
+  </div>
+
+  <div id="footer">
+    <h1><a href="http://groups.google.com/group/conversion-school">コンバージョン塾</a></h1>
+  </div>
+
+</div>
+
+<div class="presentation">
+
+  <div class="slide">
+    <h1>あなたのシステム改善が難しい理由</h1>
+    <p><a href="http://groups.google.com/group/conversion-school">コンバージョン塾</a></p>
+  </div>
+
+  <div class="slide">
+    <h1>この発表は・・</h1>
+    <ul>
+      <li>だいぶネガティブな内容が多い</li>
+      <li>実際ここまでひどくない場合もある</li>
+      <li>でも割と似たような問題をよく見かける</li>
+      <li>問題が何か分からないと改善はできない</li>
+      <li>システムはチーム力なので投資すべき</li>
+      <li>銀の弾丸はない、小さい改善の積み重ね</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>システム担当者あるある</h1>
+    <ul>
+      <li>基本「すぐに対応は難しい」と答えるスタンス</li>
+      <li>簡単そうな修正にもやたら腰が重い</li>
+      <li>実際着手すると夜遅くまで大変そう</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>なぜそうなるか？</h1>
+    <ul>
+      <li>担当者にやる気がない？</li>
+      <li>担当者のスキルが低い？</li>
+      <li>工数を多く見せようとしている？</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>きっとほとんどはそうではない</h1>
+    <ul>
+      <li>長生きシステムの内部は多かれ少なかれ・・</li>
+      <li>内部には誰も理由がわからない仕様がたくさん</li>
+      <li>歴史的経緯で整合性のない仕様もたくさん</li>
+      <li>やっつけで作られたまずい実装もたくさん</li>
+      <li>影響範囲をすぐには把握できなかったり・・</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>4つの負債パターン</h1>
+      <li>1.理由や前提がわからなくなった仕様</li>
+      <li>2.よくわからないデータ構造</li>
+      <li>3.惰性で続いているデータ抽出</li>
+      <li>4.負債と化した外部システム連携</li>
+  </div>
+  <div class="slide">
+    <h1>1.理由や前提がわからなくなった仕様</h1>
+    <ul>
+      <li>仕様変更やサービス統合の蓄積</li>
+      <li>異動・退職によって関係者が入れ替わる</li>
+      <li>引継ぎはいつも不十分（特に暗黙の仕様）</li>
+      <li>ドキュメントは一応あるがメンテされてない</li>
+      <li>実装だけが残り、理由や前提を誰も知らない</li>
+      <li>どの仕様を捨てられるか判断するだけで大変</li>
+      <li>リファクタリングは断念され、改善は先送り</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>2.よくわからないデータ構造</h1>
+    <ul>
+      <li>アンチパターンなデータモデル</li>
+      <li>紙一重で担保されるデータ整合性</li>
+      <li>あいまいなフラグ（active_flg=1）</li>
+      <li>よく分からないコード値（service_cd="k"）</li>
+      <li>改善は全てのコードに影響するのでかなり大変</li>
+      <li>"賢いデータ構造と間抜けなコードのほうが、その逆よりずっとまし"(Fred Brooks)</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>3.惰性で続いているデータ抽出</h1>
+    <ul>
+      <li>意外に侮れない運用コスト</li>
+      <li>毎日メールで送っているが今も必要？</li>
+      <li>たぶん不要だけど無難に放置・・</li>
+      <li>無難に放置×依頼者数×依頼数＝・・？</li>
+      <li>アドホックな実装によるシステム連携</li>
+      <li>データ構造の改善の先送りの要因の一つに</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>4.負債と化した外部システム連携</h1>
+    <ul>
+      <li>ビジネス的にもはやメリットがなくなっている</li>
+      <li>契約の問題もあるので仕様が硬直化しがち</li>
+      <li>とりあえずやってみた、が思わぬ足かせに・・</li>
+      <li>短期間でつくられているケースが多い</li>
+      <li>最もシステム改善のブレーキになりやすい</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>具体的な影響</h1>
+    <ul>
+      <li>システムトラブル発生率が高まる</li>
+      <li>全体的な生産性の低下（工数の増加）</li>
+      <li>仕様を把握した担当者の異動・退職リスク</li>
+      <li>新任者は実作業の前に大量の事前調査が必要</li>
+      <li>担当者のモチベーション維持の難しさ</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>提言（エンジニア）</h1>
+    <ul>
+      <li>忙しくても適当な命名や実装を避ける</li>
+      <li>不自然or暗黙の知識前提の実装にコメントを</li>
+      <li>ボーイスカウトの規則（The Boy Scout Rule）</li>
+      <li>改善にはエンジニア発の提案・調整作業も必要</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>提言（依頼者）</h1>
+    <ul>
+      <li>システムは魔法ではない事を再認識する</li>
+      <li>システム開発自体は人間による普通の仕事</li>
+      <li>要求を整理して優先順位付けする</li>
+      <li>不要なデータ抽出がないか定期的に棚卸し</li>
+      <li>チームで改善、エンジニアだけでは無理</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>私が最近思っていること</h1>
+    <ul>
+      <li>システムは普通にいじっていくと必ず経年劣化する</li>
+      <li>人間の身体と同じだと考えてみる</li>
+      <li>特に体調が悪くなくても健康診断が必要</li>
+      <li>実際に問題が起きる前に体質改善した方がいい</li>
+      <li>システムはチーム力なので投資すべき</li>
+      <li>銀の弾丸はない、小さい改善の積み重ね</li>
+    </ul>
+  </div>
+  <div class="slide">
+    <h1>あなたの現場は・・？</h1>
+    <ul>
+      <li>皆さんの現場のシステムはどうでしょうか？</li>
+      <li>一度エンジニアと話してみてはいかがでしょう</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
+
+</div>
+</body>
+</html>
+

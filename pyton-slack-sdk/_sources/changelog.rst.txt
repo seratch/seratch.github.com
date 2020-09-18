@@ -1,0 +1,7 @@
+==============================================
+Changelog
+==============================================
+
+Visit `GitHub releases<https://github.com/slackapi/python-slackclient/releases>`_!
+
+.. include:: metadata.rst

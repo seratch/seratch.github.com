@@ -1,0 +1,8 @@
+==============================================
+Tokens & Installation
+==============================================
+.. _handling-tokens:
+
+See the `Installation <./installation/index.html>`_
+
+.. include:: metadata.rst
